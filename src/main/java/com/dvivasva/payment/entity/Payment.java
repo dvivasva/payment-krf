@@ -17,7 +17,6 @@ public class Payment{
     @Id
     private String id;
     private double amount;
-    private String numberPhoneOrigin;
-    private String numberPhoneDestination;
-    private Date date;
+    private String payMode;
+    private String numberPhoneOrAccount;
 }

@@ -2,6 +2,7 @@ package com.dvivasva.payment.config;
 
 
 import com.dvivasva.payment.entity.Payment;
+import com.dvivasva.payment.entity.RequestBuyBootCoin;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;

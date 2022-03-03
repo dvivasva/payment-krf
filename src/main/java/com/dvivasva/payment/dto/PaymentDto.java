@@ -10,8 +10,7 @@ import java.util.Date;
 public class PaymentDto {
     private String id;
     private double amount;
-    private String numberPhoneOrigin;
-    private String numberPhoneDestination;
-    private Date date;
+    private String payMode;
+    private String numberPhoneOrAccount;
 
 }
