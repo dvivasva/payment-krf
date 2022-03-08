@@ -2,11 +2,9 @@ package com.dvivasva.payment.utils;
 
 public interface Topic {
 
-    String REQUEST_BUY = "request-buy";
-    String RESPONSE_ACCOUNT_ORIGIN="response-account-origin";
     String RESPONSE_PAYMENT="response-payment";
-    String RESPONSE_ACCOUNT_FROM_WALLET="response-account-from-wallet";
-    String RESPONSE_WALLET="response-wallet";
+    String RESPONSE_REQUEST_BUY_BOOT_COIN_PAYMENT ="response-request-buy-boot-coin-payment";
+    String RESPONSE_REQUEST_BUY_BOOT_COIN_WALLET_PARSE="response-request-buy-boot-coin-wallet-parse";
 
 
 }
